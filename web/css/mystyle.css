@@ -1,9 +1,9 @@
-0/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 11-Jan-2023, 10:26:27 am
-    Author     : DELL
-*/
-
+body{
+    
+}
+.primary-color{
+    background:#81C784!important;
+}
+.secondary-color{
+    background: #C8E6C9!important;
+}
