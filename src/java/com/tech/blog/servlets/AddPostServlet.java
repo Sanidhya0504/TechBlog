@@ -33,6 +33,7 @@ public class AddPostServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
+    
     private static String getSubmittedFileName(Part part) {
     for (String cd : part.getHeader("content-disposition").split(";")) {
         if (cd.trim().startsWith("filename")) {
@@ -65,7 +66,7 @@ public class AddPostServlet extends HttpServlet {
             Post p = new Post(pTitle, pContent, pCode, img, null, cid, u.getId());
             PostDao dao = new PostDao(ConnectionProvider.getConnection());
             if (dao.savePost(p)) {
-                String path = request.getRealPath("/") + "blog" + File.separator + getSubmittedFileName(part);
+                String path = request.getRealPath("/") + "blog_pics" + File.separator + getSubmittedFileName(part);
                 //out.println(path);
               //  Helper.saveFile(part.getInputStream(), path);
               if(Helper.saveFile(part.getInputStream(), path))
