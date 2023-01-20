@@ -30,9 +30,9 @@
         for (Post p : posts) {
     %>
 
-    <div class="col-md-6 mt-2">
+    <div class="col-md-6 mt-2 mb-5">
         <div class="card">
-            <div class="image-height"><img class="card-img-top" src="blog_pics/<%= p.getpPic()%>" alt="Card image cap"></div>
+            <div class="image-height"><img class="card-img-top image-height" src="blog_pics/<%= p.getpPic()%>" alt="Card image cap"></div>
             
             <div class="card-body">
                 <b><%= p.getpTitle()%></b>

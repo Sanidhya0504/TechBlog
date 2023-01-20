@@ -11,3 +11,12 @@ body{
     background: #E8F5E9!important;
 }
 
+.image-height{
+    height: 20vh;
+    overflow: hidden;
+}
+
+.active{
+    background :#81C784!important;
+    border-color: #C8E6C9!important;;
+}

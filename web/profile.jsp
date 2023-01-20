@@ -32,7 +32,7 @@
                 clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 91%, 63% 100%, 22% 91%, 0 99%, 0 0);
             }
             body{
-                background:url(img/bg.jpeg);
+                background:url(img/bg.png);
                 background-size: cover;
                 background-attachment: fixed;
             }
@@ -42,7 +42,7 @@
         <!--navbar--> 
 
         <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-            <a class="navbar-brand" href="index.jsp"> <span class="fa fa-asterisk"></span>   TechTech</a>
+            <a class="navbar-brand" href="profile.jsp"> <span class="fa fa-asterisk"></span>   TechTech</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -57,12 +57,7 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="	fa fa-check-square-o"></span> Categories
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Programming Language</a>
-                            <a class="dropdown-item" href="#">Project Implementation</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Data Structure</a>
-                        </div>
+                        
                     </li>
 
                     <li class="nav-item">
